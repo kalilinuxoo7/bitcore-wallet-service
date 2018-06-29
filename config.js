@@ -46,8 +46,9 @@ var config = {
     testnet: {
       provider: 'insight',
       //url: 'explorer.testnet.simple.io/insight',
-      apiPrefix: '/simple-insight-api'
+     
        url: 'http://localhost:3001',
+	    apiPrefix: '/simple-insight-api'
       // Multiple servers (in priority order)
       // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
     },
